@@ -9,7 +9,7 @@ import instagram from '../../../img/Assets/instagram.svg'
 import yourbank from '../../../img/Assets/YourBanK.svg'
 
 
-import { Link, useLocation } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 function Footer() {
     return (
         <footer className='footer'>

@@ -39,8 +39,18 @@ a {
     text-decoration: none;
 }
 
-.container {
-    max-width:1600px;
-    margin: 0 auto;
-    padding: 0 30px;
+@media only screen and (min-width: 1920px) {
+    .container {
+        max-width:1600px;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1919px) {
+    .container {
+        max-width:1280px;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
 }
