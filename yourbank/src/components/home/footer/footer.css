@@ -1,0 +1,124 @@
+.footer {
+    display: flex;
+    padding: 100px 0 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+    background: var(--grey-11);
+}
+
+.footer__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    align-self: stretch;
+}
+
+.logo {
+    display: flex;
+}
+
+.footer__button-container {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.footer__button-container li {
+
+   
+    color: #E4E4E7;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.footer__button-container a {
+    color: #E4E4E7;
+}
+
+.footer__line {
+    width: 1596px;
+    height: 1px;
+
+    background: #262626;
+}
+
+.footer__contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.footer__contacts button {
+    cursor: pointer;
+    border: none;
+    background-color: #1C1C1C;
+    color: #E4E4E7;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    border-radius: 6px;
+}
+
+.footer__contacts span {
+    color: var(--white-shades-90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.footer__policy {
+    display: flex;
+    padding: 16px 30px 16px 16px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+
+    border-radius: 100px;
+    border: 1px solid var(--grey-15);
+    background: var(--grey-10);
+}
+
+.footer__policy-buttons {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.footer__policy-buttons button {
+    cursor: pointer;
+    display: flex;
+    padding: 14px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+    border-radius: 100px;
+    background: var(--green-60);
+}
+
+.footer__policy {
+    color: #B3B3B3;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 150%; 
+}
+
+.footer__policy-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer__vertical-line{
+    width: 1px;
+    height: 27px;
+
+    background: #B3B3B3;
+}
