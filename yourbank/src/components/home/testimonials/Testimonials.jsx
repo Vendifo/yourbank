@@ -35,7 +35,7 @@ function Testimonials () {
                                     solutions have made managing my finances a breeze.</p>
                                 <span>Sara T</span>
                             </div>
-                            <div className='testimonials__card' >
+                            <div className='testimonials__card sl2' >
                                 <div className='testimonials__card-images' >
                                     <div className='item__line' ></div>
                                     <img src={testimonialscard} alt="testimonialscard" />
@@ -47,7 +47,7 @@ function Testimonials () {
                                     and tailored solutions have been invaluable.</p>
                                 <span>John D</span>
                             </div>
-                            <div className='testimonials__card' >
+                            <div className='testimonials__card sl3'  >
                                 <div className='testimonials__card-images' >
                                     <div className='item__line' ></div>
                                     <img src={testimonialscard} alt="testimonialscard" />
