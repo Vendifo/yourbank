@@ -40,6 +40,7 @@
         line-height: 150%; 
     }
     
+    
     .testimonials__tabs {
         display: flex;
         padding: 14px;
@@ -109,10 +110,12 @@
     }
     
     .testimonials__item-container {
+        
         display: flex;
         align-items: flex-start;
         gap: 80px;
         flex: 1 0 0;
+        
     }
     
     .testimonials__card {

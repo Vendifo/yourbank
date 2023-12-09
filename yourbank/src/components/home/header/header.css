@@ -281,8 +281,9 @@
     transform: translate(-50%, -50%);
     z-index: 1001;
     
-    padding: 20px; /* Добавил отступы для контейнера меню */
-    border-radius: 8px; /* Добавил скругление углов для меню */
+    padding: 20px;
+    border-radius: 8px; 
+    
   }
 
   .menu-open .header__authorization {
@@ -291,19 +292,26 @@
   
   .menu-open .header__nav ul,
   .menu-open .header__authorization ul {
+    text-align: center;
     list-style: none;
-    padding: 0;
+    padding: 15px;
+  
   }
   
   .menu-open .header__nav li,
   .menu-open .header__authorization li {
     margin-bottom: 20px;
   }
+
+  .menu-open .header__nav li:last-child,
+  .menu-open .header__authorization li:last-child {
+    margin-bottom: 0;
+  }
   
   .menu-open .header__nav a,
   .menu-open .header__authorization a {
     color: var(--absolute-white);
-    font-size: 18px;
+    font-size: 24px;
     text-decoration: none;
     transition: color 0.3s ease;
   }

@@ -229,13 +229,14 @@
     .questions__container {
         display: flex;
         flex-direction: column;
+        
         gap: 60px;
     }
     
     .questions__title {
         display: flex;
         flex-direction: column;
-        align-items: ce;
+        align-items: center;
         gap: 10px;
     }
     
@@ -251,6 +252,7 @@
     }
     
     .questions__title p {
+        text-align: center;
         color: var(--grey-70);
         font-size: 14px;
         font-weight: 300;
