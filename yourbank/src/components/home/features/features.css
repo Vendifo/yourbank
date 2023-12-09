@@ -20,7 +20,6 @@
     
     .features__title h1 {
         color: var(--absolute-white);
-    
         font-size: 48px;
         font-weight: 500;
         line-height: 150%;
@@ -34,7 +33,7 @@
         color: var(--grey-70);
         font-size: 18px;
         font-weight: 300;
-        line-height: 150%; 
+        line-height: 150%;
     }
     
     .features__container {
@@ -50,7 +49,6 @@
         flex-direction: column;
         align-items: flex-start;
         gap: 24px;
-    
         border-radius: 12px;
         background: var(--grey-11);
     }
@@ -62,15 +60,19 @@
         align-items: center;
         gap: 10px;
         align-self: stretch;
-    
         border-radius: 100px;
         border: 1px solid var(--grey-15);
         background: var(--grey-10);
-    
         color: var(--absolute-white);
         font-size: 18px;
         font-weight: 400;
-        line-height: 150%; 
+        line-height: 150%;
+        cursor: pointer;
+    }
+    
+    .features__menu button.active {
+        background: var(--green-60);
+        color: var(--grey-10);
     }
     
     .features__content {
@@ -96,7 +98,6 @@
         gap: 30px;
         flex: 1 0 0;
         align-self: stretch;
-    
         border-radius: 12px;
         border: 1px solid var(--grey-15);
         background: var(--grey-11);
@@ -113,7 +114,7 @@
         color: var(--absolute-white);
         font-size: 22px;
         font-weight: 400;
-        line-height: 150%; 
+        line-height: 150%;
     }
     
     .features__content-card img {
@@ -126,6 +127,7 @@
         font-weight: 300;
         line-height: 150%;
     }
+    
 }
 
 @media only screen and (min-width: 1440px) and (max-width:1919px) {
