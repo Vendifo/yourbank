@@ -58,11 +58,10 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
-    
+        border: none;
         border-radius: 140px;
-        background: var(--green-60);
-    
-        color: var(--grey-11);
+        background: var(--grey-11);
+        color: var(--absolute-white);
         text-align: center;
         font-size: 18px;
         font-weight: 400;
@@ -72,7 +71,6 @@
     .testimonials__button-businesses {
         cursor: pointer;
         border: none;
-        background: var(--grey-11);
         display: flex;
         padding: 14px 24px;
         justify-content: center;
@@ -80,12 +78,24 @@
         gap: 10px;
     
         border-radius: 140px;
+        background: var(--grey-11);
     
         color: var(--absolute-white);
         text-align: center;
         font-size: 18px;
         font-weight: 400;
         line-height: 150%;
+    }
+
+    .testimonials__button-individuals.active {
+        background: var(--green-60);
+        color: var(--grey-11);
+    }
+    
+    .testimonials__button-businesses.active {
+        background: var(--green-60);
+        color: var(--grey-11);
+        
     }
     
     .testimonials__slider{
@@ -235,17 +245,16 @@
     .testimonials__button-individuals {
         cursor: pointer;
         display: flex;
-        padding: 10px 18px;
+        padding: 14px 24px;
         justify-content: center;
         align-items: center;
         gap: 10px;
-    
+        border: none;
         border-radius: 140px;
-        background: var(--green-60);
-    
-        color: var(--grey-11);
+        background: var(--grey-11);
+        color: var(--absolute-white);
         text-align: center;
-        font-size: 14px;
+        font-size: 18px;
         font-weight: 400;
         line-height: 150%; 
     }
@@ -253,20 +262,31 @@
     .testimonials__button-businesses {
         cursor: pointer;
         border: none;
-        background: var(--grey-11);
         display: flex;
-        padding: 10px 18px;
+        padding: 14px 24px;
         justify-content: center;
         align-items: center;
         gap: 10px;
     
         border-radius: 140px;
+        background: var(--grey-11);
     
         color: var(--absolute-white);
         text-align: center;
-        font-size: 14px;
+        font-size: 18px;
         font-weight: 400;
         line-height: 150%;
+    }
+
+    .testimonials__button-individuals.active {
+        background: var(--green-60);
+        color: var(--grey-11);
+    }
+    
+    .testimonials__button-businesses.active {
+        background: var(--green-60);
+        color: var(--grey-11);
+        
     }
     
     .testimonials__slider{
@@ -417,15 +437,14 @@
     .testimonials__button-individuals {
         cursor: pointer;
         display: flex;
-        padding: 10px 18px;
+        padding: 12px 20px;
         justify-content: center;
         align-items: center;
         gap: 10px;
-    
+        border: none;
         border-radius: 140px;
-        background: var(--green-60);
-    
-        color: var(--grey-11);
+        background: var(--grey-11);
+        color: var(--absolute-white);
         text-align: center;
         font-size: 14px;
         font-weight: 400;
@@ -435,20 +454,31 @@
     .testimonials__button-businesses {
         cursor: pointer;
         border: none;
-        background: var(--grey-11);
         display: flex;
-        padding: 10px 18px;
+        padding: 12px 20px;
         justify-content: center;
         align-items: center;
         gap: 10px;
     
         border-radius: 140px;
+        background: var(--grey-11);
     
         color: var(--absolute-white);
         text-align: center;
         font-size: 14px;
         font-weight: 400;
         line-height: 150%;
+    }
+
+    .testimonials__button-individuals.active {
+        background: var(--green-60);
+        color: var(--grey-11);
+    }
+    
+    .testimonials__button-businesses.active {
+        background: var(--green-60);
+        color: var(--grey-11);
+        
     }
     
     .testimonials__slider{
@@ -484,7 +514,7 @@
     }
     
     .testimonials__card {
-        
+        width: 300px;
         display: flex;
         flex-direction: column;
         align-items: center;
