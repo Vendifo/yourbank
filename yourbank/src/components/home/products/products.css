@@ -4,7 +4,7 @@
         padding-bottom: 150px;
     }
     
-    .products__subcontainer-info {
+    .products__subcontainer-info  {
         display: flex;
         align-items: flex-end;
         gap: 300px;
@@ -16,6 +16,11 @@
         align-items: flex-start;
         gap: 14px;
     }
+
+    .product__info-list {
+        display: flex;
+    }
+    
     
     .products__text-container h1 {
         color: var(--absolute-white);
@@ -56,11 +61,10 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
-    
+        border: none;
         border-radius: 140px;
-        background: var(--green-60);
-    
-        color: var(--grey-11);
+        background: var(--grey-11);
+        color: var(--absolute-white);
         text-align: center;
         font-size: 18px;
         font-weight: 400;
@@ -85,6 +89,18 @@
         font-weight: 400;
         line-height: 150%;
     }
+
+    .products__button-individuals.active {
+        background: var(--green-60);
+        color: var(--grey-11);
+    }
+    
+    .products__button-businesses.active {
+        background: var(--green-60);
+        color: var(--grey-11);
+        
+    }
+    
     
     .products__subcontainer-subinfo {
         padding-top: 100px;
