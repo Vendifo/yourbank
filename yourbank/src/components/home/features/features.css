@@ -204,6 +204,11 @@
         font-weight: 400;
         line-height: 150%; 
     }
+
+    .features__menu button.active {
+        background: var(--green-60);
+        color: var(--grey-10);
+    }
     
     .features__content {
         display: flex;
@@ -333,6 +338,11 @@
         font-size: 14px;
         font-weight: 400;
         line-height: 150%;
+    }
+
+    .features__menu button.active {
+        background: var(--green-60);
+        color: var(--grey-10);
     }
     
     
