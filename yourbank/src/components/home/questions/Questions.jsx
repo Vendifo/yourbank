@@ -41,7 +41,7 @@ function Questions() {
                         <div className='questions__row-background'></div>
                     </div>
                     {showAdditionalContent && (
-                        <div className='questions__item-container' >
+                        <div className='questions__item-container'>
                             <div className='questions__row'>
                                 <div className='questions__item'>
                                     <h1>How do I apply for a credit card?</h1>
@@ -62,7 +62,6 @@ function Questions() {
                                     <p>If you lose your YourBank debit card, it's essential to act quickly to protect your account. Contact our customer support team immediately to report the loss, and they will guide you through the process of blocking the card and issuing a replacement. Additionally, monitor your account for any unauthorized transactions and report them promptly.</p>
                                 </div>
                             </div>
-
                         </div>
                     )}
                     <div className='questions__button-container'>
