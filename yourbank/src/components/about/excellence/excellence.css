@@ -1,0 +1,210 @@
+@media only screen and (min-width: 1920px) {
+    .excellence {
+        padding-bottom: 150px;
+    }
+    
+    .excellence__container {
+        position: relative;
+        display: flex;
+        width: 1599px;
+        height: 716px;
+        padding: 50px;
+        align-items: flex-start;
+        gap: -260px;
+    
+        border-radius: 20px;
+        background: var(--grey-11);
+    }
+    
+    .excellence__container-text {
+        z-index: 2;
+        display: flex;
+        width: 791px;
+        padding: 80px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 23px;
+        flex-shrink: 0;
+    
+        border-radius: 20px 0px 80px 20px;
+        background: var(--grey-10);
+    }
+    
+    .excellence__container-text h1 {
+        color: var(--absolute-white);
+        font-size: 58px;
+        font-weight: 500;
+        line-height: 130%; 
+    }
+    
+    .excellence__container-text span {
+        color: var(--green-60, #CAFF33);
+    }
+    
+    .excellence__container-text p {
+        color: var(--grey-70);
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 150%;
+    }
+    
+    .excellence__background-images {
+        border-radius: 16px;
+        position: absolute;
+        right: 50px;
+        z-index: 1;
+        width: 968px;
+        height: 716px;
+        flex: 1 0 0;
+    }
+    
+    .excellence__background-abstract {
+        position: absolute;
+        width: 505px;
+        height: 480px;
+        right: -20px;
+        top: 0;
+    }
+    
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1919px) {
+    .excellence {
+        padding-bottom: 150px;
+    }
+    
+    .excellence__container {
+        position: relative;
+        display: flex;
+        width: 1279px;
+        height: 568px;
+        padding: 40px;
+        align-items: flex-start;
+        gap: -174px;
+    
+        border-radius: 20px;
+        background: var(--grey-11);
+    }
+    
+    .excellence__container-text {
+        z-index: 2;
+        display: flex;
+        width: 658px;
+        padding: 60px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        flex-shrink: 0;
+    
+        border-radius: 20px 0px 60px 20px;
+        background: var(--grey-10);
+    }
+    
+    .excellence__container-text h1 {
+        color: var(--absolute-white);
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 130%; 
+    }
+    
+    .excellence__container-text span {
+        color: var(--green-60, #CAFF33);
+    }
+    
+    .excellence__container-text p {
+        color: var(--grey-70);
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 150%;
+    }
+    
+    .excellence__background-images {
+        border-radius: 16px;
+        position: absolute;
+        right: 50px;
+        z-index: 1;
+        width: 715px;
+        height: 568px;
+        flex: 1 0 0;
+    }
+    
+    .excellence__background-abstract {
+        position: absolute;
+        width: 334px;
+        height: 317px;
+        right: -20px;
+        top: 0;
+    }
+}
+
+@media only screen and (max-width:1439px) {
+    .excellence {
+        padding-bottom: 150px;
+        position: relative;
+    }
+    
+    .excellence__container {
+        position: relative;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        
+        
+        height: 577px;
+        padding: 14px;
+        align-items: flex-start;
+        gap: -41px;
+    
+        border-radius: 20px;
+        background: var(--grey-11);
+    }
+    
+    .excellence__container-text {
+        position: absolute;
+        bottom: 0;
+        z-index: 2;
+        display: flex;
+        padding: 24px;
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+        flex-shrink: 0;
+    
+        border-radius: 20px;
+        background: var(--grey-10);
+    }
+    
+    .excellence__container-text h1 {
+        color: var(--absolute-white);
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 130%; 
+    }
+    
+    .excellence__container-text span {
+        color: var(--green-60, #CAFF33);
+    }
+    
+    .excellence__container-text p {
+        text-align: center;
+        color: var(--grey-70);
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 150%;
+    }
+    
+    .excellence__background-images {
+        border-radius: 16px;
+        width: 100%;
+        height: 150px;
+        z-index: 1;
+        flex: 1 0 0;
+    }
+    
+    .excellence__background-abstract {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+
