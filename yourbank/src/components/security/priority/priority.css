@@ -1,9 +1,9 @@
 @media only screen and (min-width: 1920px) {
-    .excellence {
+    .priority {
         padding-bottom: 150px;
     }
     
-    .excellence__container {
+    .priority__container {
         position: relative;
         display: flex;
         width: 1599px;
@@ -16,7 +16,7 @@
         background: var(--grey-11);
     }
     
-    .excellence__container-text {
+    .priority__container-text {
         z-index: 2;
         display: flex;
         width: 791px;
@@ -30,25 +30,25 @@
         background: var(--grey-10);
     }
     
-    .excellence__container-text h1 {
+    .priority__container-text h1 {
         color: var(--absolute-white);
         font-size: 58px;
         font-weight: 500;
         line-height: 130%; 
     }
     
-    .excellence__container-text span {
+    .priority__container-text span {
         color: var(--green-60, #CAFF33);
     }
     
-    .excellence__container-text p {
+    .priority__container-text p {
         color: var(--grey-70);
         font-size: 18px;
         font-weight: 300;
         line-height: 150%;
     }
     
-    .excellence__background-images {
+    .priority__background-images {
         border-radius: 16px;
         position: absolute;
         right: 50px;
@@ -58,7 +58,7 @@
         flex: 1 0 0;
     }
     
-    .excellence__background-abstract {
+    .priority__background-abstract {
         position: absolute;
         width: 505px;
         height: 480px;
@@ -69,11 +69,11 @@
 }
 
 @media only screen and (min-width: 1440px) and (max-width: 1919px) {
-    .excellence {
+    .priority {
         padding-bottom: 150px;
     }
     
-    .excellence__container {
+    .priority__container {
         position: relative;
         display: flex;
         width: 1279px;
@@ -86,7 +86,7 @@
         background: var(--grey-11);
     }
     
-    .excellence__container-text {
+    .priority__container-text {
         z-index: 2;
         display: flex;
         width: 658px;
@@ -100,25 +100,25 @@
         background: var(--grey-10);
     }
     
-    .excellence__container-text h1 {
+    .priority__container-text h1 {
         color: var(--absolute-white);
         font-size: 48px;
         font-weight: 500;
         line-height: 130%; 
     }
     
-    .excellence__container-text span {
+    .priority__container-text span {
         color: var(--green-60, #CAFF33);
     }
     
-    .excellence__container-text p {
+    .priority__container-text p {
         color: var(--grey-70);
         font-size: 16px;
         font-weight: 300;
         line-height: 150%;
     }
-    
-    .excellence__background-images {
+
+    .priority__background-images {
         border-radius: 16px;
         position: absolute;
         right: 50px;
@@ -128,7 +128,7 @@
         flex: 1 0 0;
     }
     
-    .excellence__background-abstract {
+    .priority__background-abstract {
         position: absolute;
         width: 334px;
         height: 317px;
@@ -138,12 +138,12 @@
 }
 
 @media only screen and (max-width:1439px) {
-    .excellence {
+    .priority {
         padding-bottom: 150px;
         position: relative;
     }
     
-    .excellence__container {
+    .priority__container {
         position: relative;
         top: 0;
         display: flex;
@@ -159,7 +159,7 @@
         background: var(--grey-11);
     }
     
-    .excellence__container-text {
+    .priority__container-text {
         position: absolute;
         bottom: 0;
         z-index: 2;
@@ -174,18 +174,18 @@
         background: var(--grey-10);
     }
     
-    .excellence__container-text h1 {
+    .priority__container-text h1 {
         color: var(--absolute-white);
         font-size: 28px;
         font-weight: 500;
         line-height: 130%; 
     }
     
-    .excellence__container-text span {
+    .priority__container-text span {
         color: var(--green-60, #CAFF33);
     }
     
-    .excellence__container-text p {
+    .priority__container-text p {
         text-align: center;
         color: var(--grey-70);
         font-size: 14px;
@@ -193,7 +193,7 @@
         line-height: 150%;
     }
     
-    .excellence__background-images {
+    .priority__background-images {
         border-radius: 16px;
         height: 100px;
         width: 100%;
@@ -201,7 +201,7 @@
         flex: 1 0 0;
     }
     
-    .excellence__background-abstract {
+    .priority__background-abstract {
         position: absolute;
         right: 0;
         top: 0;
